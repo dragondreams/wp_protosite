@@ -10,7 +10,7 @@ add_theme_support( 'menus' );
 
 // Register My Menus
 function register_custom_menu() {
-	register_nav_menu('main-menu', _('Main Menu'))
+	register_nav_menu('main-menu', _('Main Menu'));
 }
 
 //
