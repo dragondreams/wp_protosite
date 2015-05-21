@@ -1,0 +1,466 @@
+/* New styles */
+/*Theme name: w170
+Author: Jan Talaro
+Description: Demo theme for W170 WP
+Version: 1.0
+*/
+
+
+
+
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+form#billing-form {
+	
+}
+
+form#billing-form label {
+	display:block;
+}
+
+form#billing-form fieldset {
+	display:block;
+	float:left;
+	width:460px;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 0 auto 0 auto;
+	padding: 0 auto;
+	font-family: Arial, Calibri, sans-serif;
+}
+
+div#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	display:block;	
+	width:960px;
+	clear:both;
+}
+header img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	float: left;
+	border-radius:100%;
+}
+
+.company-name {
+	font-size: 2.2em;
+	width: 500px;
+	float: left;
+	padding: 10px 15px;
+}
+
+#nav {
+	width: 540px; 
+	clear: both; 
+	margin: 2em auto;
+	
+}
+#nav ul li {
+	display:block;
+	float:left;
+	list-style-type:none;
+	/*font-size: 1.8em;
+	padding: 10px 15px 10px 15px; */
+	
+	ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#nav ul li a {
+  text-decoration: inherit;
+  clear: both; 
+}
+
+a {
+    float: right;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover {
+    background-color: fuchsia;
+}
+
+li {
+    display: inline;
+}
+}
+#nav ul li a {
+	text-decoration: none;
+}
+
+ul#menu-main li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 1em;
+  text-align: center;
+}
+
+ul#menu-main {
+  clear: both;
+}
+
+#utility {
+	width: 380px;
+	float: right;
+}
+#utility ul li {
+	float: left;
+	display: block;
+
+	padding: 0 10px;
+}
+#utility ul li a {
+	text-decoration: none;
+}
+#slides {
+	clear: both;
+	margin: 2em auto;
+	height: 400px;
+	
+	
+}
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+h2 span.spacer {
+   padding:0 5px;
+}
+section {
+	clear: both;
+	/*background-color: #ccc;*/
+}
+div.content {
+	width:960px;
+	display:block;
+	clear:both;
+
+}
+div.long-banner {
+	width: 780px;
+	margin: 0 auto 10px;
+
+	padding: 10px 15px 10px 15px;
+	text-align: center;	
+}
+aside.product-description {
+	width:220px;
+	float:left;
+
+	
+}
+div.product-list,
+div.target-feature {
+	float:right;
+	width: 720px;
+	background-color: none;
+}
+div.product-list img {
+	width:220px;
+	height: 200px;
+	/*border:1px solid #000;*/
+	margin: 0px 0px 20px 20px;
+	display:block;
+	float:left;
+}
+div.feature-group,
+div.target-group {
+	display: block;
+	clear:both;
+}
+div.feature-group a {
+	width:300px;
+	height:250px;
+	border:1px solid #000;
+	display:block;
+	float:left;
+	margin: 10px 27px 10px 0px;
+}
+div.feature-group a:last-child {
+	margin-right: 0px;
+}
+
+div.shopping-cart img {
+	width: 220px;
+	height: 220px;
+	float: left;
+	margin-right: 20px;
+}
+table#shopping-cart-table {
+	width: 720px;
+	float: right;
+	display: block;
+	font-size: 1.2em;
+}
+th {
+	text-align: left;
+}
+td, th {
+	padding: 2px 10px;
+
+}
+td.money {
+	text-align: right;
+}
+div.shopping-buttons {
+	width: 720px;
+	float: right;
+}
+.shopping-buttons a {
+	float: left;
+}
+.shopping-buttons a:last-child {
+	float: right;
+	margin-right: 0px;
+}
+
+
+
+.review-group {
+	display: block;
+	clear: both;
+}
+
+.review-box {
+	width:300px;
+	height:250px;
+	border:1px solid #000;
+	display:block;
+	float:left;
+	margin: 10px 27px 10px 0px;
+}
+
+.review-box:last-child {
+	margin-right: 0px;
+}
+
+.review-box h3 {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.review-box p {
+	margin: 0px 5px;
+}
+
+.review-box a {
+	float: right;
+	margin-right: 0px;
+}
+
+.cart-buttons a {
+	float: left;
+}
+
+.place-order-box {
+	clear: both;
+	float: right;
+}
+
+.place-order-box tr td:last-child {
+	text-align: right;
+}
+
+.confirm-message {
+	padding: 50px 0px;
+}
+
+.confirm-message img {
+	padding-left: 150px;
+}
+
+.confirm-message p {
+	width: 540px;
+	float: right;
+	font-size: 30px;
+	margin-right: 130px;
+}
+
+footer {
+	width:960px;
+	display:block;
+	clear:both;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+img {
+	max-width:100%;
+}
+img.target-medium {
+	width:460px;
+}
+img.target-small {
+	width:220px;
+}
+
+.button {
+	display: block;
+	padding: 4px 10px;
+	width: 120px;
+	margin: 10px 20px 10px 0px;
+	background-color: #cef;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius:10px;
+	box-shadow:1px 1px 1px #5c5c5c;
+}
+.button:hover {
+	color:#cef;
+	background-color: #000;
+}
+
+/* REMOVE ME */
+img.target-medium,
+img.target-small {
+	height: 250px;
+} /* END REMOVE ME */
+
+a:link, a:visited {
+	color: black;
+}
+a:hover, a:active {
+	color: #00aa99;
+}
+
+section > h2 {
+	position: relative;
+	top: -300px;
+	z-index: 200;
+}
+.adjustment {
+	position: relative;
+	top: -2em;
+}
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
