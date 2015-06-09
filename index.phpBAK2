@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CHICKEN COOP CHATAUES</title>
+<!-- Begin Meta -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow, noarchive"/>
+<!-- End Meta -->
+	
+<!-- Begin Styles -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+<!-- End Styles -->
+	
+</head>
+<body>
+
+<!-- Begin Header -->
+	<div id="wrapper">
+		<header>
+			<a href="index.html">
+				<img src="images/logo.jpg" alt="Chicken Coop Logo" />
+			</a>
+			<div id="utility">
+				<ul>
+					<li><a href="">Login</a></li>
+					<li><a href="">My Account</a></li>
+					<li><a href="shopping_cart.html">Shopping Cart</a></li>	
+				</ul>
+			</div>
+			<div class="company-name">
+				Chicken Coop Chateaus test
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="">Support</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>	
+		</header>
+<!-- End Header -->
+
+		<section>
+			<div id="slides">	
+				<img src="images/threeccc.jpg" alt="Chicken Coops">
+				<img src="images/free-range-chickens.jpg" alt="Hen Chickens">
+				<img src="images/build-coop.jpg" alt="Build Your Own">
+			</div>
+			<h2><span>Chicken Coop Chateaus<span class='spacer'></span><span class='spacer'></span>Limitless Possibilities!</span></h2>						
+			<div class="feature-group adjustment">
+				<a href="products.html"><img src="images/chapel_styleccc.jpg" alt="Product Line" /></a>
+				<a href=""><img src="images/community.jpg" alt="Community" /></a>
+				<a href=""><img src="images/free-shipping.jpg" alt="Free Shipping" /></a>
+			</div>
+		</section>
+		
+<!-- Begin Footer -->
+	<footer>
+		<p>Chicken Coop Chataues &copy; 2015</p>
+	</footer>
+<!-- End Footer -->
+</div>
+
+<!-- Begin Scripts -->	
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		  $('#slides').slidesjs({
+				width: 960,
+				height: 300,
+			play: {
+				effect: "fade",
+				auto: true,
+				interval: 5000,
+				swap: true
+			},
+			navigation: {
+				active: false,
+			},
+			pagination: {
+				active: false,
+			}
+		  });
+		});
+	</script>
+<!-- End Scripts -->
+</body>
+</html>
