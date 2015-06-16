@@ -184,12 +184,12 @@ ul.subnav li {
 }
 
 .topnav li:hover {
-    background-color: red;
+    background-color: #CCFFFF;
 }
 
 .topnav li:hover ul.subnav {
     display: inline-block;
-    background-color: red;
+    background-color: #CCFFFF;
 }
 
 .nav ul li:hover {
@@ -204,7 +204,7 @@ ul.subnav li {
     display: inline-block;
     clear: none;
     position: absolute;
-    background-color: red;
+    background-color: #CCFFFF;
     margin: 4px 0 0 -8px;
     padding: 0;
 }
@@ -225,7 +225,7 @@ ul.subnav li {
     }
 
     .rightNav li:hover {
-        background-color: red;
+        background-color: #CCFFFF;
     }
 
     ul.rightNav  li{
@@ -247,7 +247,7 @@ ul.subnav li {
         white-space:nowrap;
     }
     ul.rightSubNav li {
-        background-color: red;
+        background-color: #CCFFFF;
         list-style: none;
         display: inline;
         color: white;
@@ -259,7 +259,7 @@ ul.subnav li {
 
     .rightNav li:hover ul.rightSubNav {
         display: inline-block;
-        background-color: red;
+        background-color: #CCFFFF;
     }
 	
 	/*ends styling nav and subnav */
