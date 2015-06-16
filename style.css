@@ -135,6 +135,7 @@ ul#menu-main {
 .navbar {
     height: 40px;
     background-color: black;
+	list-style:none;
 }
 
 ul.topnav {
