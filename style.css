@@ -13,6 +13,16 @@ Version: 1.0
   margin: 1em auto;
 }
 
+input.search-field {
+  border-radius: 10%;
+  padding: 0.3em;
+}
+
+input.search-submit {
+  clear: both;
+  margin-top: 1em;
+}
+
 div#wrapper {
 	width: 95%;
 	margin: 0 auto;
@@ -135,7 +145,7 @@ ul#menu-main {
 .navbar {
     height: 40px;
     background-color: black;
-	text-decoration:none;
+	
 }
 
 ul.topnav {
@@ -195,6 +205,7 @@ ul.subnav li {
 
 .nav ul li:hover {
     background-color: black;
+	
 }
 
 .nav ul li {
