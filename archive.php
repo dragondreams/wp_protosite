@@ -68,6 +68,7 @@
 	 
 	endif;
 ?>
+</div>
 	 <div id="widget">
 							<?php dynamic_sidebar( 'secondary' ); ?> 
 						 </div>
