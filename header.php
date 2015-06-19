@@ -67,7 +67,7 @@ if ( is_home() || is_front_page() ) : // Home or Front Page
 				</ul>
 			</div>
 			<div class="company-name">
-				Chicken Coop Chateaus test
+				Chicken Coop Chateaus
 			</div>
 			
 		 
