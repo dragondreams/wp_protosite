@@ -13,6 +13,10 @@ Version: 1.0
   margin: 1em auto;
 }
 
+ul .sub-menu {
+	display: none;
+}
+
 input.search-field {
   border-radius: 10%;
   padding: 0.3em;
