@@ -19,5 +19,27 @@
 				<a href=""><img src="<?php bloginfo('template_url'); ?>/images/free-shipping.jpg" alt="Free Shipping" /></a>
 			</div>-->
 		</section>
+		<div id="homewidgets">
+   <section class="item">
+       <h3>About Chicken Coop</h3>
+       <p>ajsdkajkdalsdlaksdjalsdlasdakldjakldaldkajdkladl</p> 
+   </section>
+
+<section class="item">
+       <h3>Latest Posts</h3>
+       <?php rewind_posts(); // stop loop one ?>
+<?php query_posts('showposts=4'); // give directions to loop two ?>
+<?php while (have_posts()) : the_post(); // start loop two ?>
+<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+<?php endwhile; // end loop two ?> 
+   </section>
+
+<section class="item">
+       <h3>Contact Us</h3>
+      <p>ajsdkajkdalsdlaksdjalsdlasdakldjakldaldkajdkladl</p>
+   </section>
+
+</div>
+		
 		
 <?php get_footer()?>
