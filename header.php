@@ -36,7 +36,14 @@
 			
 		 
 			<ul class="topnav left">
-				<?php wp_nav_menu( array('main-menu' => 'Main Menu' )); ?>
+				<!--<?php wp_nav_menu( array('main-menu' => 'Main Menu' )); ?>-->
+				<?php
+				  $children = wp_list_pages('title_li=&child_of='.$post->ID.'&echo=0');
+				  if ($children) { ?>
+				  <ul>
+				  <?php echo $children; ?>
+				  </ul>
+				  <?php } ?>
 			</ul>
 		 
 			 
