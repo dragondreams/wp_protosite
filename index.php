@@ -5,7 +5,7 @@
 <div id="container">
 	
 			<div id="sidebar"> 
-				<?php dynamic_sidebar( 'primary' ); ?> 
+				<!--<?php dynamic_sidebar( 'primary' ); ?> -->
 				
 				<div id="submenu">
 				<ul>
