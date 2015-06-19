@@ -4,18 +4,20 @@
 
 		<?php dynamic_sidebar( 'primary' ); ?>
 		 
-			  <?php if (get_post_meta($post->ID, 'Quote', true)) : ?>
-            <div class="eventSide">
-                <h3>Here's your pull-quote:</h3>
-                <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?>
-                </blockquote>
-            </div>
+			 
 	
 
 	<?php else : ?>
 			<ul>
 				<?php wp_list_categories(); ?>
 			</ul>
+			
+			 <?php if (get_post_meta($post->ID, 'Quote', true)) : ?>
+            <div class="eventSide">
+                <h3>Here's your pull-quote:</h3>
+                <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?>
+                </blockquote>
+            </div>
      <h3>Location</h3>
         <p>123 45th Avenue South<br/>
         Seattle, WA 98765</p>
