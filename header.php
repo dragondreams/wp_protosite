@@ -58,8 +58,7 @@ if ( is_home() || is_front_page() ) : // Home or Front Page
 	<div id="wrapper">
 		<header>
 			<a href="index.html">
-				<img src="<?php bloginfo('template_url'); ?>/images/logo.jpg" alt="Chicken Coop Logo" />
-			</a>
+			<a href="<?php echo get_option('home'); ?>"/><img src="<?php bloginfo('template_url'); ?>/images/logo.jpg" alt="Chicken Coop Logo" /></a>
 			<div id="utility">
 				<ul>
 					<li><a href="">Login</a></li>
