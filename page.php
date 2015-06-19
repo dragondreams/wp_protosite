@@ -9,14 +9,7 @@
 					<?php if ($post->post_parent) { wp_list_pages(array('child_of' => $post->post_parent, 'title_li' => __(''))); 
 					} else { wp_list_pages(array('child_of' => $post->ID, 'title_li' => __('')));} ?>
 				</ul>
-			</div>
 			
-			  <?php if (get_post_meta($post->ID, 'Quote', true)) : ?>
-            <div class="eventSide">
-                <h3>Here's your pull-quote:</h3>
-                <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?>
-                </blockquote>
-            </div>
 		</div>
 		<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 		<div id="main"> 

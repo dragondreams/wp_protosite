@@ -3,7 +3,14 @@
   <?php if ( is_active_sidebar( 'primary' ) ) : ?>
 
 		<?php dynamic_sidebar( 'primary' ); ?>
-		
+		</div>
+			
+			  <?php if (get_post_meta($post->ID, 'Quote', true)) : ?>
+            <div class="eventSide">
+                <h3>Here's your pull-quote:</h3>
+                <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?>
+                </blockquote>
+            </div>
 	
 
 	<?php else : ?>
