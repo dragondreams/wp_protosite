@@ -27,7 +27,7 @@
 					<div class="post-box">
 						
 						<?php the_post_thumbnail(); ?>
-						<?php the_content('More &raquo;'); ?>
+						<?php the_excerpt('More &raquo;'); ?>
 						<?php edit_post_link('Edit.', '<p><small>', '</small></p>'); ?>
                      </div> 
 					 <?php endwhile; ?> 
